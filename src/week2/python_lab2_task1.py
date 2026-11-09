@@ -83,16 +83,13 @@ if __name__ == "__main__":
     # Keep all input() and print() calls inside this block, otherwise the
     # autograder cannot import your file.
 
-    # Daily average air temperature in Jelgava, 2-8 November 2026 (LVĢMC)
     temperatures = [6.2, 6.4, 5.4, 8.2, 4.4, 4.6, 6.5]
-
-    # Population at the start of 2026 (Central Statistical Bureau of Latvia)
     city_population = {
         "Jelgava": 54912,
         "Cēsis": 14918,
         "Ludza": 7053,
         "Durbe": 479,
-        "Rucava": 478,
+        "Rucava": 850,
     }
 
     largest = largest_city(city_population)
