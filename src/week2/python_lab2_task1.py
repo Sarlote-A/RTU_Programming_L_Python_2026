@@ -85,11 +85,11 @@ if __name__ == "__main__":
 
     temperatures = [3, 5, 4, 6, 2, 5, 5]
     city_population = {
-        "Riga": 605000,
-        "Daugavpils": 78000,
-        "Liepaja": 67000,
-        "Ventspils": 33000,
-        "Valmiera": 23000,
+        "Jelgava": 55000,
+        "Cēsis": 15000,
+        "Ludza": 7000,
+        "Rucava": 600,
+        "Durbe": 450,
     }
 
     largest = largest_city(city_population)
